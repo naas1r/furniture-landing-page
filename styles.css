@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 1;
+    color: #343A40;
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.navbar{
+    display: flex;
+    height: 6rem;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.logo{
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu ul{
+    display: flex;
+    gap: 128px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons{
+    height: 24px;
+    width: 24px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.icons:last-child{
+    margin-right: 0;
+}
+
+.hero{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    background-color: #FAFAF9;
+}
+
+.inner-text{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.inner-text div{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-text div p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.inner-text div input{
+    width: 85%;
+    height: 40px;
+    padding: 16px;
+    font-size: 16px;
+    margin-right: -10px;
+}
+
+.inner-text div button{
+    width: 15%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+
+}
+
+.inner-pic{
+    width: 60%;
+    height: 100%;
+}
+
+.inner-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.benefits-container{
+    width: 90vw;
+    height: 150px;
+    margin: 60px auto;
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefit{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    gap: 24px;
+}
+
+.benefit .icons{
+    width: 32px;
+    height: 32px;
+    margin-top: 14px;
+}
+
+.benefit p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.feature{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    
+    height: 1000px;
+    background-color: #F8F9FA;
+    padding: 80px;
+    margin-bottom: 80px;
+}
+
+.items{
+    margin: 32px;
+}
+
+.items h2{
+    font-family: 'PT Serif', serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.items p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.btn {
+    width: 15%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+.item-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item-2, .item-3 {
+    padding-top: 32px;
+
+}
+
+.shopping{
+    height: 500px;
+    width: 90vw;
+    margin: 20px auto;
+    position: relative;
+}
+
+.shopping h2{
+    font-family: 'PT Serif', serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: -10px;
+}
+
+.shop-by{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 400Px;
+}
+
+.rooms{
+    height: 350px;
+    width: 380px;
+    position: relative;
+}
+
+.rooms >p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 32px;
+}
+
+.shop-by-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.interior-design{
+    display: grid;
+    grid-template-columns: repeat(4, 380px);
+    grid-template-rows: repeat(5, 180px);
+    width: 90vw;
+    gap: 24px;
+    margin: -6px auto;
+    margin-bottom: 120px;
+}
+
+.inner-1{
+    grid-column: 3/5;
+    grid-row: 1/3;
+    padding: 96px;
+}
+
+.inner-2{
+    grid-column: 1/3;
+    grid-row: 2/5;
+}
+
+.inner-3{
+    grid-column: 3/5;
+    grid-row: 3/6;
+
+    padding: 30px;
+}
+
+.inner-1 h2{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.inner-1 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.inner-1 .btn{
+    width: 150px;
+}
+
+.inner-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inner-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    height: 760px;
+    width: 90vw;
+    margin: 60px auto;
+}
+
+.about-img{
+    width: 45%;
+}
+
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-desc{
+    width: 54%;
+    padding: 80px 60px;
+    padding-bottom: 20px;
+}
+
+.about-desc h2{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 32px;
+}
+
+.about-desc p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.stat-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.stat-box h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    padding-left: 12px;
+}
+
+.stat-box p{
+    font-size: 16px;
+}
+
+.learn-more{
+    width: 128px;
+    height: 42px;
+    padding: auto;
+    font-weight: 600;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+.testimonial-section{
+    height: 600px;
+    background-color: #F8F9FA;
+    /* background-color: gray; */
+    margin-top: 112px;
+}
+
+.testimonial-section h2{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    padding-top: 48px;
+    margin-bottom: 62px;
+}
+
+.testimonial-inner-container{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.testimonial{
+    height: 400px;
+    width: 500px;
+    padding: 42px;
+    padding-top: 80px;
+    /* border: 1px solid #b0b8c0; */
+    /* opacity: 0.9; */
+}
+
+.active{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 0;
+    /* opacity: 1; */
+}
+
+.customer-quote{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.small-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 36px;
+}
+
+.customer-img img{
+    display: inline;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 45px;
+}
+
+.person{
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-top: 12px;
+    margin-bottom: 6px;
+
+}
+
+.news-letter{
+    height: 450px;
+    width: 50%;
+    margin: 10px auto;
+    padding: 120px;
+    padding-top: 150px;
+}
+
+.news-letter h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.news-letter p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    opacity: 0.8;
+}
+
+.news-letter input{
+    width: 85%;
+    height: 40px;
+    padding: 16px;
+    font-size: 16px;
+    margin-right: -10px;
+}
+
+.news-letter button{
+    width: 15%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer{
+    height: 90vh;
+    background-color: #22272d;
+    color: #DEE2E6;
+    line-height: 1.5;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div{
+    height: 70%;
+    width: 28%;
+}
+
+footer p{
+    cursor: pointer;
+}
+
+.first{
+    margin-top: 110px;
+}
+
+footer .logo{
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+footer .shop-address{
+    margin-bottom: 180px;
+}
+
+.footer-inner-container{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-inner-container div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 0;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
